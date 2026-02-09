@@ -1,7 +1,12 @@
 # Diabetic-Macular-Oedema-development-and-therapy
-Repository containing FEBio files to simulate oedema development and therapy response
+Repository containing FEBio files to simulate oedema development and therapy response.
+Please cite the following article if you use this code
 
-Details of files
+Mechanisms of macular oedema development and therapeutic response: An in-silico modelling study
+Pradeep Keshavanarayana, Emmeline Brown, Philip Luthert, Rebecca Shipley, and Simon Walker-Samuel
+
+
+Details of files in this repository
 .dll file (Windows), .sh file (Linux) -  These are the plugin files written to extend the default model present in FEBio. Adding this plugin will give options to apply fluid and solute boundary conditions as described in the article. Please follow the FEBio documentation to import the plugin. 
 
 .feb files - These are the FEBio model files developed for different cases presented in the article. 
