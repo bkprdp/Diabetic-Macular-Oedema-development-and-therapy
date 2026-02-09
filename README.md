@@ -12,3 +12,9 @@ Details of .feb file naming convention -
 3. Physiological_***.feb - Files starting with Physiological indicates the physiological state of the retina, without any BV leakage. These files simualte the behaviour presented in section 3.1.
 4. BV_Leakage_***.feb - Files starting with BV_Leakage describes the condition of leakay blood vessels as simulated in section 3.2.
 5. Restart_File_***.feb - Files starting with the Restart are used to simulate Anti_VEGF recovery. This is used to reduce the computational re-runs. A base case of blood vessel leakage is initially run upto a certain time. The output is stored. Then the program is restarted adding Anti_VEGF.
+
+Method to reproduce the results:
+1. Install FEBio. We have used FEBio V4.10 in this article.
+2. Install the plugin (using the .dll file, if on windows and .sh file, if on Linux)
+3. Run the desired febio file using the following command within the febio terminal : run -i ***.feb -p ***.xplt
+4. .xplt is the format of the output file.  This can later be viewed through FEBio GUI.
