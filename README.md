@@ -7,7 +7,7 @@ Pradeep Keshavanarayana, Emmeline Brown, Philip Luthert, Rebecca Shipley, and Si
 
 
 Details of files in this repository
-.dll file (Windows), .sh file (Linux) -  These are the plugin files written to extend the default model present in FEBio. Adding this plugin will give options to apply fluid and solute boundary conditions as described in the article. Please follow the FEBio documentation to import the plugin. 
+.dll file (Windows), .so file (Linux) -  These are the plugin files written to extend the default model present in FEBio. Adding this plugin will give options to apply fluid and solute boundary conditions as described in the article. Please follow the FEBio documentation to import the plugin. 
 
 .feb files - These are the FEBio model files developed for different cases presented in the article. 
 
@@ -20,6 +20,6 @@ Details of .feb file naming convention -
 
 Method to reproduce the results:
 1. Install FEBio. We have used FEBio V4.10 in this article.
-2. Install the plugin (using the .dll file, if on windows and .sh file, if on Linux)
+2. Install the plugin (using the .dll file, if on windows and .so file, if on Linux)
 3. Run the desired febio file using the following command within the febio terminal : run -i ***.feb -p ***.xplt
 4. .xplt is the format of the output file.  This can later be viewed through FEBio GUI.
